@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knotfast Festival 2021</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Vídeo de fundo -->
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="./Knotfest Brazil 2021 (Trailer).mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+    </div>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">Knotfast Festival</div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#programacao">Programação</a></li>
+                <li><a href="#artistas">Artistas</a></li>
+                <li><a href="#ingressos">Ingressos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <main>
+        <section class="hero">
+            <h1>Knotfast Festival 2021</h1>
+            <div id="countdown">
+                <span id="days">9</span> dias 
+                <span id="hours">00</span> horas 
+                <span id="minutes">00</span> minutos 
+                <span id="seconds">00</span> segundos
+            </div>
+            <a href="#ingressos" class="btn">Compre seu Ingresso</a>
+        </section>
+
+        <!-- Container para as seções do festival -->
+        <div class="container">
+            <!-- Container para "Sobre" e "Programação" -->
+            <div class="sobre-programacao-container">
+                <!-- Seção Sobre -->
+                <section id="sobre" class="section sobre fade-in">
+                    <h2>Sobre o Evento</h2>
+                    <p>O Knotfast Festival é uma celebração épica da música e cultura, oferecendo uma experiência imersiva única. Durante três dias, aventure-se em um mundo de criatividade, arte e conexão, com atrações que vão além das apresentações musicais.</p>
+                </section>
+
+                <!-- Seção Programação -->
+                <section id="programacao" class="section programacao fade-in">
+                    <h2>Programação</h2>
+                    <ul>
+                        <li><strong>Sexta-feira:</strong> Cerimônia de abertura com surpresas especiais e convidados de renome.</li>
+                        <li><strong>Sábado:</strong> Dia inteiro de workshops interativos, seguido por shows de artistas mundialmente reconhecidos.</li>
+                        <li><strong>Domingo:</strong> Encerramento emocionante com performances que prometem deixar saudades.</li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- Seção Artistas -->
+            <section id="artistas" class="section fade-in">
+                <h2>Artistas</h2>
+                <p>Conheça os artistas que definirão o tom do Knotfast Festival. Prepare-se para performances inesquecíveis de:</p>
+                <ul>
+                    <li><i class="fas fa-music"></i> Artista 1: Uma lenda do rock com hits que atravessam gerações.</li>
+                    <li><i class="fas fa-music"></i> Artista 2: Conhecido por suas performances energéticas e inovadoras.</li>
+                    <li><i class="fas fa-music"></i> Artista 3: Um ícone pop que conquistou fãs em todo o mundo.</li>
+                    <li><i class="fas fa-music"></i> Artista 4: Revelação do ano, trazendo um som fresco e autêntico.</li>
+                </ul>
+            </section>
+
+            <!-- Seção Ingressos -->
+            <section id="ingressos" class="section fade-in">
+                <h2>Ingressos</h2>
+                <p>Garanta seu lugar no Knotfast Festival 2021! Oferecemos várias opções de ingressos para atender a diferentes preferências e orçamentos. Escolha a melhor opção para sua experiência:</p>
+                <div class="ticket-options">
+                    <div class="ticket-card">
+                        <h3>Ingresso Diário</h3>
+                        <p>Acesso a um dia do festival.</p>
+                        <p><strong>Preço:</strong> R$ 100,00</p>
+                        <a href="link-para-comprar-ingresso-diario" class="btn">Comprar Ingresso Diário</a>
+                    </div>
+                    <div class="ticket-card">
+                        <h3>Ingresso Completo</h3>
+                        <p>Acesso a todos os dias do festival.</p>
+                        <p><strong>Preço:</strong> R$ 250,00</p>
+                        <a href="link-para-comprar-ingresso-completo" class="btn">Comprar Ingresso Completo</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Contato -->
+            <section id="contato" class="section fade-in">
+                <h2>Contato</h2>
+                <p>Estamos aqui para ajudar! Se você tiver dúvidas ou precisar de mais informações, entre em contato conosco através dos seguintes meios:</p>
+                <p><i class="fas fa-envelope"></i> <strong>Email:</strong> contato@knotfastfestival.com</p>
+                <p><i class="fas fa-phone"></i> <strong>Telefone:</strong> (XX) XXXX-XXXX</p>
+            </section>
+
+            <!-- Seção do Vídeo do Festival -->
+            <section id="video" class="section fade-in">
+                <h2>Assista ao Trailer do Festival</h2>
+                <div class="video-container">
+                    <video controls>
+                        <source src="./KNOTFEST IOWA 2021 ｜ Official Aftermovie.mp4" type="video/mp4">
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Feito por <a href="https://github.com/BrunoRbt" target="_blank">Bruno Roberto</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
